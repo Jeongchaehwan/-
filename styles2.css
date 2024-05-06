@@ -1,0 +1,21 @@
+table {
+  border-collapse: collapse;
+  /* 테이블의 테두리와 셀의 테두리 사이의 간격 없애기 */
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 7px;
+  text-align: center;
+  /* 셀에 있는 글자들을 중간 정렬 */
+  transition: background-color 0.3s, color 0.3s; 
+  /* 테이블 셀에 마우스를 올려 배경색과 글자색이 바뀌는 것을 부드럽게 하기 위함.*/
+}
+
+th:hover,
+td:hover {
+  background-color: lavender;
+  color: rgb(255, 47, 47);
+  font-weight: bold;
+}
+/* 셀에 마우스 올리면 배경색, 글자색, 글자 볼드처리 */

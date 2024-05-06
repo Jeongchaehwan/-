@@ -1,0 +1,13 @@
+#hbdr {
+    display: flex;
+    /* flex 기능을 활용하여 가로로 취미와 꿈 두개의 div를 가로로 정렬함. */
+    margin: 0 auto;
+    text-align: center;
+}
+
+#hbdr >div {
+    width: 300px;
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
