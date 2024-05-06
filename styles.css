@@ -6,7 +6,7 @@ body {
 #header {
   background-color: black;
   color: white;
-  padding: 10px;
+  padding: 10px 30px;
   display: flex;
   /* "자기 소개 페이지" 옆에 내비게이션 항목들이 표현되도록 하기위함 */
   justify-content: space-between;
